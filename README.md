@@ -88,7 +88,13 @@ Rag_Chatbot/
    
    Create a `.env` file in the root directory:
    ```env
-   OPENAI_API_KEY=your_openai_api_key_here
+   LANGSMITH_TRACING=true
+   LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+   LANGSMITH_API_KEY=#
+   LANGSMITH_PROJECT="#"
+   OPENAI_API_KEY=#
+   GOOGLE_API_KEY=#
+   GROQ_API_KEY=#
    ```
 
 5. **Run the application**
